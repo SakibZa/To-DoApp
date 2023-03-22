@@ -1,19 +1,13 @@
-// importing all required libraries
-import { ReactNotifications } from "react-notifications-component";
-// importing all required components
-import TodoContainer from "./components/container/TodoContainer";
+// import TodoApp from "./Components/Todo_App";
 
-// creating an App component
+import TodoApp from "./Components/TodoApp";
+
 function App() {
   return (
     <div className="App">
-      {/* using ReactNotifications for rendering up all the notifications */}
-      <ReactNotifications />
-      {/* rendering the todo container component */}
-      <TodoContainer />
+      <TodoApp />
     </div>
   );
 }
 
-// exporting app component by default
 export default App;
